@@ -13,14 +13,14 @@
         android:theme="@style/AppTheme">
 
         <!-- add your Activities, Receivers, Services names here -->
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity_GridView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Listview"></activity>
+        <activity android:name=".MainActivity_ListView"></activity>
     </application>
 
 </manifest>

@@ -8,14 +8,14 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class CustomAdapter extends BaseAdapter {
+public class CustomAdapter_ListView extends BaseAdapter {
 
     Context context;
     String[] countryList;
     int[] flags;
     LayoutInflater inflater;
 
-    public CustomAdapter(Context context, String[] countryList, int[] flags) {
+    public CustomAdapter_ListView(Context context, String[] countryList, int[] flags) {
         this.context = context;
         this.countryList = countryList;
         this.flags = flags;
