@@ -28,7 +28,7 @@ public class MainActivity_GridView extends AppCompatActivity {
         simpleGrid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                Intent intent = new Intent(MainActivity_GridView.this, SecondActivity.class);
+                Intent intent = new Intent(MainActivity_GridView.this, SecondActivity_GridView.class);
                 intent.putExtra("image", logos[position]);
                 startActivity(intent);
             }
