@@ -13,15 +13,21 @@
         android:theme="@style/AppTheme">
 
         <!-- add your Activities, Receivers, Services names here -->
-        <activity android:name=".MainActivity_GridView">
+        <activity android:name=".MainActivity_GridView2" />
+        <activity android:name=".MainActivity_ListView" />
+        <activity android:name=".SecondActivity_GridView" />
+        <activity android:name=".MainActivity_GridView" />
+        <activity android:name=".MainActivity_ScrollView" />
+        <activity android:name=".MainActivity_Spinner" />
+        <activity android:name=".MainActivity_TextView" />
+        <activity android:name=".MainActivity_EditText" />
+        <activity android:name=".MainActivity_Button">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity_ListView" />
-        <activity android:name=".SecondActivity_GridView"></activity>
     </application>
 
 </manifest>

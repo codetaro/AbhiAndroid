@@ -4,4 +4,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="login">User Login</string>
+    <string name="name">Name</string>
+    <string name="password_0_9">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="date">Date</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="submit">Submit</string>
 </resources>
