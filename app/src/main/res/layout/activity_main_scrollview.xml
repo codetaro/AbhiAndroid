@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dyuan.abhiandroid.MainActivity_ScrollView">
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_ScrollView">
 
     <HorizontalScrollView
         android:layout_width="match_parent"

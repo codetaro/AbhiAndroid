@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dyuan.abhiandroid.MainActivity_Button">
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_Button">
 
     <Button
         android:id="@+id/simpleButton1"

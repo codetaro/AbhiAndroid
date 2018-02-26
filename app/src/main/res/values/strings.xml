@@ -10,4 +10,9 @@
     <string name="date">Date</string>
     <string name="contact_number">Contact Number</string>
     <string name="submit">Submit</string>
+    <string name="android">Android</string>
+    <string name="java">Java</string>
+    <string name="php">PHP</string>
+    <string name="python">Python</string>
+    <string name="unity">Unity 3D</string>
 </resources>

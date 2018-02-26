@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dyuan.abhiandroid.MainActivity_TextView">
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_TextView">
 
     <TextView
         android:id="@+id/simpleTextView"

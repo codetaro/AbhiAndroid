@@ -1,4 +1,4 @@
-package com.example.dyuan.abhiandroid;
+package com.example.dyuan.abhiandroid.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.dyuan.abhiandroid.Item;
+import com.example.dyuan.abhiandroid.R;
 
 import java.util.ArrayList;
 

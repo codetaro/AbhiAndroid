@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_Switch"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/simpleSwitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="false"
+        android:text="switch 1"
+        android:textOff="Off"
+        android:textOn="On"
+        android:layout_marginTop="20dp"/>
+
+    <Switch
+        android:id="@+id/simpleSwitch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="true"
+        android:text="switch 2"
+        android:textOff="Off"
+        android:textOn="On"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/simpleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#009284"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"/>
+</LinearLayout>

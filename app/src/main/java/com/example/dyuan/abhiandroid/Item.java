@@ -1,6 +1,6 @@
 package com.example.dyuan.abhiandroid;
 
-class Item {
+public class Item {
 
     String birdName;
     int birdImage;

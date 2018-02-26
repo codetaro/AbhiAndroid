@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_ImageView">
+
+    <ImageView
+        android:id="@+id/simpleImageViewLion"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/lion"/>
+
+    <ImageView
+        android:id="@+id/simpleImageViewMonkey"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/simpleImageViewLion"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/monkey"/>
+</RelativeLayout>

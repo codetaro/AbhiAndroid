@@ -1,4 +1,4 @@
-package com.example.dyuan.abhiandroid;
+package com.example.dyuan.abhiandroid.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-class CustomAdapter extends BaseAdapter {
+import com.example.dyuan.abhiandroid.R;
+
+public class CustomAdapter extends BaseAdapter {
     Context context;
     int[] flags;
     String[] countryNames;

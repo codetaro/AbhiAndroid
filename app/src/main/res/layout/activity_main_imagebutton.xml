@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_ImageButton">
+
+    <ImageButton
+        android:id="@+id/simpleImageButtonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_image_button"
+        android:padding="20dp"
+        android:src="@drawable/home"/>
+
+    <ImageButton
+        android:id="@+id/simpleImageButtonYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpleImageButtonHome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#005"
+        android:padding="20dp"
+        android:src="@drawable/youtube"/>
+</RelativeLayout>
