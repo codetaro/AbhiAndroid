@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_MultiAutoComplete">
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/simpleMultiAutoCompleteTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:gravity="center"
+        android:hint="Enter Your Text Here"
+        android:padding="10dp"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
