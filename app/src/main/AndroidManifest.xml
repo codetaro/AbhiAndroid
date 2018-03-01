@@ -32,7 +32,8 @@
         <activity android:name=".Activity.MainActivity_WebView" />
         <activity android:name=".Activity.MainActivity_AutoComplete" />
         <activity android:name=".Activity.MainActivity_MultiAutoComplete" />
-        <activity android:name=".Activity.MainActivity_ProgressBar">
+        <activity android:name=".Activity.MainActivity_ProgressBar" />
+        <activity android:name=".Activity.MainActivity_TimePicker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
