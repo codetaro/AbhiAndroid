@@ -1,17 +1,19 @@
 package com.example.dyuan.abhiandroid.Activity;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.TimePickerDialog;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.TimePicker;
-import android.widget.Toast;
 
 import com.example.dyuan.abhiandroid.R;
 
+import java.util.Calendar;
+
 public class MainActivity_TimePicker extends AppCompatActivity {
 
-    TextView time;
-    TimePicker simpleTimePicker;
+    EditText time;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,13 +21,21 @@ public class MainActivity_TimePicker extends AppCompatActivity {
         setContentView(R.layout.activity_main_timepicker);
 
         time = findViewById(R.id.time);
-        simpleTimePicker = findViewById(R.id.simpleTimePicker);
-        simpleTimePicker.setIs24HourView(false);
-        simpleTimePicker.setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
+        time.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onTimeChanged(TimePicker timePicker, int hourOfDay, int minute) {
-                Toast.makeText(getApplicationContext(), hourOfDay + ":" + minute, Toast.LENGTH_SHORT).show();
-                time.setText("Time is: " + hourOfDay + ":" + minute);
+            public void onClick(View view) {
+                Calendar mcurrentTime = Calendar.getInstance();
+                int hour = mcurrentTime.get(Calendar.HOUR_OF_DAY);
+                int minute = mcurrentTime.get(Calendar.MINUTE);
+                TimePickerDialog mTimePicker;
+                mTimePicker = new TimePickerDialog(MainActivity_TimePicker.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
+                        time.setText(selectedHour + ":" + selectedMinute);
+                    }
+                }, hour, minute, true);
+                mTimePicker.setTitle("Select Time");
+                mTimePicker.show();
             }
         });
     }

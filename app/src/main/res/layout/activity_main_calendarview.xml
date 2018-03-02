@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_CalendarView">
+
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:firstDayOfWeek="2"
+        android:maxDate="01/01/2019"
+        android:minDate="01/01/2017" />
+</RelativeLayout>

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_margin"
-    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_TimePicker">
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_DatePicker">
 
     <EditText
-        android:id="@+id/time"
+        android:id="@+id/date"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:hint="Select Time..."
-        android:textColor="#090"
         android:background="#d4d4d4"
+        android:hint="Select Date..."
         android:padding="15dp"
+        android:textColor="#897"
+        android:textColorHint="#090"
         android:textSize="20sp"
         android:textStyle="bold" />
 </RelativeLayout>
