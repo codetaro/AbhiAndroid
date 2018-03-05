@@ -2,7 +2,6 @@ package com.example.dyuan.abhiandroid.Activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.CalendarView;
 import android.widget.Toast;
@@ -27,7 +26,8 @@ public class MainActivity_CalendarView extends AppCompatActivity {
         simpleCalendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(CalendarView calendarView, int year, int month, int dayOfMonth) {
-                Toast.makeText(getApplicationContext(), dayOfMonth + "/" + month + "/" + year, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),
+                        dayOfMonth + "/" + month + "/" + year, Toast.LENGTH_SHORT).show();
             }
         });
     }

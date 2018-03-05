@@ -35,13 +35,9 @@
         <activity android:name=".Activity.MainActivity_ProgressBar" />
         <activity android:name=".Activity.MainActivity_TimePicker" />
         <activity android:name=".Activity.MainActivity_DatePicker" />
-        <activity android:name=".Activity.MainActivity_CalendarView">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Activity.MainActivity_CalendarView" />
+        <activity android:name=".Activity.MainActivity_Clock" />
+        <activity android:name=".Activity.MainActivity_SeekBar" />
     </application>
 
 </manifest>

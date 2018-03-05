@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dyuan.abhiandroid.Activity.MainActivity_Clock">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Analog Clock"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <AnalogClock
+        android:id="@+id/simpleAnalogClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#0f0"
+        android:padding="50dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpleAnalogClock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Digital Clock"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <DigitalClock
+        android:id="@+id/simpleDigitalClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#0f0"
+        android:padding="20dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>
