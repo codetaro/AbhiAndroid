@@ -38,6 +38,15 @@
         <activity android:name=".Activity.MainActivity_CalendarView" />
         <activity android:name=".Activity.MainActivity_Clock" />
         <activity android:name=".Activity.MainActivity_SeekBar" />
+        <activity android:name=".Activity.MainActivity_ExpandableListView" />
+        <activity android:name=".Activity.MainActivity_Chronometer" />
+        <activity android:name=".Activity.MainActivity_ZoomControls">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
