@@ -43,16 +43,23 @@
         <activity android:name=".Activity.MainActivity_ZoomControls" />
         <activity android:name=".Activity.MainActivity_CheckedTextView" />
         <activity android:name=".Activity.MainActivity_VideoView" />
-        <activity android:name=".Activity.MainActivity_TabHost">
+        <activity android:name=".Activity.MainActivity_TabHost" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.ContactActivity" />
+        <activity android:name=".Activity.AboutActivity" />
+        <activity android:name=".Activity.MainActivity_SearchView" />
+        <activity android:name=".Activity.MainActivity_SlidingDrawer" />
+        <activity android:name=".Activity.MainActivity_TextSwitcher" />
+        <activity android:name=".Activity.MainActivity_ViewSwitcher" />
+        <activity android:name=".Activity.MainActivity_ViewFlipper" />
+        <activity android:name=".Activity.MainActivity_ViewStub" />
+        <activity android:name=".Activity.MainActivity_Gallery">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.HomeActivity" />
-        <activity android:name=".Activity.ContactActivity" />
-        <activity android:name=".Activity.AboutActivity"></activity>
     </application>
 
 </manifest>
