@@ -53,7 +53,11 @@
         <activity android:name=".Activity.MainActivity_ViewSwitcher" />
         <activity android:name=".Activity.MainActivity_ViewFlipper" />
         <activity android:name=".Activity.MainActivity_ViewStub" />
-        <activity android:name=".Activity.MainActivity_Gallery">
+        <activity android:name=".Activity.MainActivity_Gallery" />
+        <activity android:name=".Activity.MainActivity_CountDownTimer" />
+        <activity android:name=".MainActivity_AlertDialog" />
+        <activity android:name=".Activity.MainActivity_ProgressDialog" />
+        <activity android:name=".MainActivity_Html">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
