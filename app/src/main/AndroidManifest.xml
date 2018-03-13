@@ -72,6 +72,14 @@
         <activity android:name=".Activity.MainActivity_intent" />
         <activity android:name=".Activity.SecondActivity" />
         <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.MainActivity_json" />
+        <activity android:name=".Activity.MainActivity_toast">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
