@@ -5,6 +5,11 @@
     <!-- Add this before application tag -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/abhi_android_logo_250_pixel"
@@ -62,13 +67,11 @@
         <activity android:name=".Activity.MainActivity_onstart" />
         <activity android:name=".Activity.MainActivity_onpause" />
         <activity android:name=".Activity.Second" />
-        <activity android:name=".Activity.MainActivity_onstop">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Activity.MainActivity_onstop" />
+        <activity android:name=".Activity.MainActivity_lifecycle" />
+        <activity android:name=".Activity.MainActivity_intent" />
+        <activity android:name=".Activity.SecondActivity" />
+        <activity android:name=".Activity.LoginActivity" />
     </application>
 
 </manifest>
