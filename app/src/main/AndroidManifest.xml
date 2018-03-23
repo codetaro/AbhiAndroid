@@ -78,14 +78,16 @@
         <activity android:name=".Activity.MainActivity_toast" />
         <activity android:name=".Activity.MainActivity_internalStorage" />
         <activity android:name=".Activity.MainActivity_internalStorage2" />
-        <activity android:name=".Activity.MainActivity_externalStorage">
+        <activity android:name=".Activity.MainActivity_externalStorage" />
+        <activity android:name=".Activity.MainActivity_externalStorage2" />
+        <activity android:name=".MainActivity_sqlite" />
+        <activity android:name=".MainActivity_sqliteImage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.MainActivity_externalStorage2"></activity>
     </application>
 
 </manifest>
